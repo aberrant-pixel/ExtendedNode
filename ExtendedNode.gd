@@ -1,6 +1,6 @@
 tool
 extends Node
-class_name ExtendedNode2D
+class_name ExtendedNode
 
 ### DO NOT OVERRIDE THIS ###
 # Override the virtual functions instead
