@@ -1,13 +1,13 @@
-tool
+@tool
 extends Node
 class_name ExtendedNode
 
 ### DO NOT OVERRIDE THIS ###
 # Override the virtual functions instead
 func _process(delta: float) -> void:
-	if Engine.editor_hint:
+	if Engine.is_editor_hint:
 		_editor_process(delta)
-	if not Engine.editor_hint:
+	else:
 		_game_process(delta)
 	
 	_shared_process(delta)
