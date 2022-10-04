@@ -21,5 +21,5 @@ For now, simply add this under your `res://addons/` folder as a git submodule. I
 - [ ] Build this into a small framework, potentially an addon
 - [ ] Build this into a C++ module
 - [ ] Build this into the engine
- - [ ] Potentially contribute it
+  - [ ] Potentially contribute it
 - [ ] Make an extended version of every node to sort of cater to common use cases?
